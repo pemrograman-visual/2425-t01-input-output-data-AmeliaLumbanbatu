@@ -4,9 +4,9 @@
         <attribute name="name" value="T01"/>
         <attribute name="authors" value="ACER"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2024-09-06 11:09:19 AM"/>
+        <attribute name="saved" value="2024-09-06 11:37:11 AM"/>
         <attribute name="created" value="QUNFUjtMQVBUT1AtSVJTVEE1RVQ7MjAyNC0wOS0wNjsxMDowODo0NiBBTTsyNjU2"/>
-        <attribute name="edited" value="QUNFUjtMQVBUT1AtSVJTVEE1RVQ7MjAyNC0wOS0wNjsxMTowOToxOSBBTTsxOzI3NjY="/>
+        <attribute name="edited" value="QUNFUjtMQVBUT1AtSVJTVEE1RVQ7MjAyNC0wOS0wNjsxMTozNzoxMSBBTTsyOzI3NjA="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
@@ -31,7 +31,7 @@
             <input variable="Stok"/>
             <declare name="Rating" type="String" array="False" size=""/>
             <input variable="Rating"/>
-            <output expression="ISBN &amp;&quot;|&quot; &amp; Judulbuku &amp;&quot;|&quot; &amp; Penulis &amp;&quot;|&quot; &amp; Tahunterbit &amp;&quot;|&quot; &amp; Namapenerbit &amp;&quot;|&quot; &amp; Formatbuku &amp;&quot;|&quot; &amp; Hargapembelian &amp;&quot;|&quot; &amp; Minimummargin &amp;&quot;|&quot; &amp; Stok &amp;&quot;|&quot; &amp; Rating &amp;&quot;|&quot;" newline="True"/>
+            <output expression="ISBN &amp;&quot;|&quot; &amp; Judulbuku &amp;&quot;|&quot; &amp; Penulis &amp;&quot;|&quot; &amp; Tahunterbit &amp;&quot;|&quot; &amp; Namapenerbit &amp;&quot;|&quot; &amp; Formatbuku &amp;&quot;|&quot; &amp; Hargapembelian &amp;&quot;|&quot; &amp; Minimummargin &amp;&quot;|&quot; &amp; Stok &amp;&quot;|&quot; &amp; Rating" newline="True"/>
         </body>
     </function>
 </flowgorithm>

@@ -1,0 +1,2 @@
+Telah menyelesaikan tugas T01 input/output
+Telah memperbaiki kelebihan tanda pipe "|"

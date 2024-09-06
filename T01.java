@@ -1,7 +1,7 @@
 // 12S24031-Amelia Renata Lumbanbatu
 // 12S24025-Paula Gevriella Tambunan
 
-import java.util.*;
+ import java.util.*;
 import java.lang.Math;
 
 public class T01 {
@@ -38,6 +38,6 @@ public class T01 {
         String rating;
 
         rating = input.nextLine();
-        System.out.println(iSBN + "|" + judulbuku + "|" + penulis + "|" + tahunterbit + "|" + namapenerbit + "|" + formatbuku + "|" + hargapembelian + "|" + minimummargin + "|" + stok + "|" + rating + "|");
+        System.out.println(iSBN + "|" + judulbuku + "|" + penulis + "|" + tahunterbit + "|" + namapenerbit + "|" + formatbuku + "|" + hargapembelian + "|" + minimummargin + "|" + stok + "|" + rating);
     }
 }
