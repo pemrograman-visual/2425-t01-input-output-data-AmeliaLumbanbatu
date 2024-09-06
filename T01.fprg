@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="T01"/>
+        <attribute name="authors" value="ACER"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-06 11:09:19 AM"/>
+        <attribute name="created" value="QUNFUjtMQVBUT1AtSVJTVEE1RVQ7MjAyNC0wOS0wNjsxMDowODo0NiBBTTsyNjU2"/>
+        <attribute name="edited" value="QUNFUjtMQVBUT1AtSVJTVEE1RVQ7MjAyNC0wOS0wNjsxMTowOToxOSBBTTsxOzI3NjY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="ISBN" type="String" array="False" size=""/>
+            <input variable="ISBN"/>
+            <declare name="Judulbuku" type="String" array="False" size=""/>
+            <input variable="Judulbuku"/>
+            <declare name="Penulis" type="String" array="False" size=""/>
+            <input variable="Penulis"/>
+            <declare name="Tahunterbit" type="String" array="False" size=""/>
+            <input variable="Tahunterbit"/>
+            <declare name="Namapenerbit" type="String" array="False" size=""/>
+            <input variable="Namapenerbit"/>
+            <declare name="Formatbuku" type="String" array="False" size=""/>
+            <input variable="Formatbuku"/>
+            <declare name="Hargapembelian" type="String" array="False" size=""/>
+            <input variable="Hargapembelian"/>
+            <declare name="Minimummargin" type="String" array="False" size=""/>
+            <input variable="Minimummargin"/>
+            <declare name="Stok" type="String" array="False" size=""/>
+            <input variable="Stok"/>
+            <declare name="Rating" type="String" array="False" size=""/>
+            <input variable="Rating"/>
+            <output expression="ISBN &amp;&quot;|&quot; &amp; Judulbuku &amp;&quot;|&quot; &amp; Penulis &amp;&quot;|&quot; &amp; Tahunterbit &amp;&quot;|&quot; &amp; Namapenerbit &amp;&quot;|&quot; &amp; Formatbuku &amp;&quot;|&quot; &amp; Hargapembelian &amp;&quot;|&quot; &amp; Minimummargin &amp;&quot;|&quot; &amp; Stok &amp;&quot;|&quot; &amp; Rating &amp;&quot;|&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
